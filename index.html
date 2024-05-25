@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <div class="container">
+            <div class="logo">Web Development</div>
+            <nav>
+                <ul class="menu" id="menu">
+                    <span id="close" >&#10539;</span>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Read more.html">My intro</a></li>
+                    <li class="dropdown">
+                        <a href="#">Pages</a>
+                        <div class="dropdown-content">
+                            <a href="#">page 1</a>
+                            <a href="#">page 2</a>
+                            <a href="#">page 3</a>
+                        </div>
+                    </li>
+                    <li><a href="Form page.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="modal-btn">Search</button>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round"></span>
+            </label>
+            <span id="open" >&#8801;</span>
+        </div>
+        </div>
+    </header>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>SearchBar</h1>
+            <div class="search-container">
+                <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+                <div class="search-icon" id="searchIcon">
+                  <img src="" alt="Search">
+                </div>
+                <div class="popover" id="popover">
+                  Please fill out this field.
+                </div>
+              </div>
+              <h2>Browse all topics:</h2>
+                <ul class="search-item">
+                <a href=""><li>DESIGN PATTERNS</li></a>
+                <a href=""><li>PERFORMANCE</li></a>
+                <a href=""><li>PHOTOSHOP</li></a>
+                <a href=""><li>USER EXPERIENCE</li></a>
+                <a href=""><li>TYPOGRAPHY</li></a>
+                <a href=""><li>E-COMMERCE</li></a>
+                <a href=""><li>HTML</li></a>
+                <a href=""><li>ILLUSTRATION</li></a>
+                <a href=""><li>DESIGN PATTERNS</li></a>                
+                <a href=""><li>PERFORMANCE </li></a>
+                <a href=""><li>PHOTOSHOP</li></a>
+                <a href=""><li>USER EXPERIENCE </li></a>
+                <a href=""><li>TYPOGRAPHY</li></a>
+                </ul>
+                
+        </div>
+    </div>
+
+
+    <!--Carousel part is open -->
+     <div class="Carousel">
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="slide">
+                    <img src="BANAER OFR INSTAGRAM.jpg" alt="Slide 1">
+                    <div class="caption">Photoshop banner 1</div>
+                </div>
+                <div class="slide">
+                    <img src="black light banaer.jpg" alt="Slide 2">
+                    <div class="caption">Photoshop banner 2</div>
+                </div>
+                <div class="slide">
+                    <img src="wall light AS Dekore.jpg">
+                    <div class="caption">Photoshop banner 3</div>
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <!-- Add more indicators as needed -->
+            </div>
+        </div>
+     </div>
+    <!-- Carousel part is close -->
+
+
+    <!-- About us part is open -->
+    <div class="Aboutus">
+        <div class="Aboutus-wraper">
+            <div class="about-image"><img src="WhatsApp Image 2023-11-27 at 14.22.04_2f758e7a (3).jpg" alt=""></div>
+            <div class="About-heading">
+                <h2>About Me.</h2>
+                <p>Front end Developer With in photoshop HTML, CSS , Java script , Bootstrap.Knowledge of
+                  responsive design, accessibility compliance, and cross-browsercompatibility.</p>
+                  <div class="info01">
+                  <div class="info">
+                    <span>Name:</span>
+                    <p>Aakash</p>
+                  </div>
+                  <div class="info">
+                    <span>From:</span>
+                    <p>Delhi</p>
+                  </div>
+                  <div class="info">
+                    <span>Email:</span>
+                    <p>rakeshkumar996822@gmail.com</p>
+                  </div>
+                  <div class="info">
+                    <span>Phone:</span>
+                    <p>9267972138</p>
+                  </div>
+                  </div>
+                <a href=""><span>&#8594;</span> Read more</a>
+            </div>
+        </div>
+    </div>
+    <!-- About us part is close -->
+
+    <!-- card part is open -->
+    <h1 style="text-align: center; margin: 74px 0px;">What I Do For You</h1>
+    <div class="card-container">
+        <div class="card">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <div><h3>Modern design</h3></div>
+            <p></p>
+        </div>
+        <div class="card">
+            <div><h3>Creative Design</h3></div>
+            <p></p>
+        </div>
+        <div class="card">
+            <div><h3>Web Design</h3></div>
+            <p></p>
+        </div>
+    </div>
+    <!-- card part is close -->
+
+    <!-- project part is open -->
+    <div class="project">
+      <h1  style="text-align: center; margin-top: 100px;">Project</h1>
+        <div class="project-wraper">
+            <a href="https://aakashkumar99682.github.io/addidas/" class="project-card">
+              <img src="css/Adidas.png" alt="">
+                <div class="overlay">
+                  <h2>Adidas shopping website</h2>
+                  <p>HTML,CSS,JAVASCRIPT, MEDIA QUERIES,KEY FRAMES</p>
+                </div>
+              </a>
+
+              <a href="https://aakashkumar99682.github.io/Computer-repaair-website/" class="project-card">
+                <img src="css/computer repairing.png" alt="">
+                <div class="overlay">
+                  <h2>Computer reparing website</h2>
+                  <p>SIMPLE WEBSITE USING HTML,CSS THIS IS NOT RESPONSIVE</p>
+                </div>
+              </a>
+        </div>
+     <div class="project-wraper">
+
+              <a href="https://aakashkumar99682.github.io/Responsive/" class="project-card">
+                <img src="css/responsive.png" alt="">
+                <div class="overlay">
+                  <h2>RESPONSIVE WEBSITE</h2>
+                  <p>IN WHICH USED HTML,CSS,MEDIA QUERIES</p>
+                </div>
+              </a>
+
+              <a href="https://aakashkumar99682.github.io/shopping-site/" class="project-card">
+                <img src="css/shopping website.png" alt="">
+                <div class="overlay">
+                  <h2>SHOPPING WEBSITE</h2>
+                  <p>IN WHICH USED HTML,CSS,MEDIA QUERIES,JAVASCRIPT.</p>
+                </div>
+              </a>
+        </div>
+    </div>
+    <!-- project part is close -->
+
+    <!-- blog and news part is open -->
+    <div class="blog">
+        <div class="Blog-wraper">
+            <div class="blog-card">
+              <img src="https://primathon.in/blog/wp-content/uploads/2024/05/image-2-2.jpg" alt="">
+                <a href=""><h2 class="card-title">Web Development</h2></a>
+              </div>
+              <div class="blog-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7JkbyIgZkXYYtnlDws4Nc71kiov2iTDDdDVY7q5G99w&s" alt="">
+                <a href=""><h2 class="card-title">Responsive design</h2></a>
+              </div>
+              <div class="blog-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLj8QI3cPjy7_Q1g4aTQULjxAGpLBV_UGTCOvm9wqjlg&s" alt="">
+                <a href=""><h2 class="card-title">Design Trends</h2></a>
+              </div>
+        </div>
+    </div>
+    <!-- blog and news part is open -->
+
+      <div class="image-text">
+        <div class="excarousel">
+            <div class="excarousel-inner">
+                <div class="excarousel-item active">
+                <p><b>Web Design</b></br>Web design involves crafting the visual and interactive elements of websites to create an engaging and user-friendly experience. It begins with the layout and structure, where wireframing and grid systems are used to plan the site's blueprint, ensuring consistency and alignment. Visual design is crucial, involving the selection of color schemes, typography, and imagery to enhance the site's appeal and readability, along with careful consideration of spacing and padding for aesthetic balance.</p>
+                    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_Web_Designing.jpg" alt="Image 1">
+                </div>
+                <div class="excarousel-item">
+                  <p><b>Animation Design</b></br>At the heart of animation design is the concept of movement. Designers create sequences of images that simulate motion when played in succession. This can range from simple animations like a bouncing ball to complex scenes involving multiple characters and intricate backgrounds. The process often starts with storyboarding, where key frames are sketched to outline the major scenes and actions.</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA0mWHh2O5Gf8EyI7swW6GytqQd5QNrJY0Q70PnMvEgg&s" alt="Image 2">
+                </div>
+                <div class="excarousel-item">
+                  <p><b>Photoshop Media</b></br>Photoshop media design encompasses the creation and manipulation of visual elements using Adobe Photoshop, a powerful graphic design and photo editing software. This process involves working with various types of media such as photos, illustrations, and text to produce compelling visual content. Designers utilize Photoshop to enhance and retouch images, apply filters and effects, and create composite images by combining multiple elements.</p>
+                    <img src="https://miro.medium.com/v2/resize:fit:700/1*Moc_8GPimTVMIXIDHrFhCA@2x.jpeg" alt="Image 3">
+                </div>
+            </div>
+            <div class="excarousel-indicators">
+                <span class="exindicator active" data-slide-to="0"></span>
+                <span class="exindicator" data-slide-to="1"></span>
+                <span class="exindicator" data-slide-to="2"></span>
+            </div>
+        </div>
+      </div>
+   
+
+<div class="work">
+      <div class="work-waper">
+        <h1>Do You Like My Work.?</h1>
+        <p>Let’s work together!</p>
+        <a href="Form page.html"><span class="arrow01">&#8594;</span> Get In Touch</a>
+    </div>
+</div> 
+
+
+<div class="footerpart">
+  <div class="footer">
+    <div class="footer-icons">
+        <a href="#"><img src="facebook (1).png" alt=""></a>
+        <a href="#"><img src="gmail.png" alt=""></a>
+        <a href="#"><img src="twitter (1).png" alt=""></a>
+    </div>
+    <p>© 2024 portfolio</p>
+</div>
+</div>
+    
+   
+  
+
+    <script src="main.js"></script>
+</body>
+</html>
